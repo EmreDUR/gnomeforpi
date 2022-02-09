@@ -7,14 +7,7 @@ fi
 
 echo "Starting script..."
 
-echo "Updating Repositories"
-sleep 2
-apt-get update
-wait
-apt-get upgrade -y
-wait
-
-lite=0
+lite=1
 
 while [ $# -gt 0 ]; do
   case "${1}" in
@@ -48,10 +41,10 @@ wait
 
 
 
-#echo "Disable Animations"
-#sleep 2
-#sudo gsettings set org.gnome.desktop.interface enable-animations false
-#wait
+echo "Disable Animations"
+sleep 2
+sudo gsettings set org.gnome.desktop.interface enable-animations false
+wait
 
 echo "change permission settings for GNOME"
 sleep 2
