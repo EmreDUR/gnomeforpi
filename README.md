@@ -1,6 +1,8 @@
 # GNOME For Pi
 A script to install gnome on the Raspberry Pi
 
+This fork disables the update part for rapid testing and activates lite install feature of the script.
+
 ![alt text](https://github.com/TerraGitHuB/gnomeforpi/blob/stable/Screenshot%20from%202021-04-16%2010-11-01.png)
 
 This simply installs the gnome package for Raspberry Pi OS, then modifies config files to optimize GNOME.
@@ -38,7 +40,7 @@ sudo apt install git
 
 Now that you've done that, run: 
 ```sh
-git clone https://github.com/TerraGitHuB/gnomeforpi.git && cd gnomeforpi && sudo bash gnomeforpi-install
+git clone https://github.com/EmreDUR/gnomeforpi.git && cd gnomeforpi && sudo bash gnomeforpi-install
 ```
 and just let her rip!
 
