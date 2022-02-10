@@ -7,6 +7,8 @@ fi
 
 echo "Starting script..."
 
+sudo apt update
+
 lite=1
 
 while [ $# -gt 0 ]; do
