@@ -27,7 +27,9 @@ if [ "${lite}" -eq 0 ]; then
   wait
 else
 echo "Install minimal options."
-  sudo apt install -y gnome-session gnome-shell nautilus gedit gnome-terminal seahorse gnome-tweaks rpi-chromium-mods piwiz
+#sudo apt install -y gnome-session gnome-shell nautilus gedit gnome-terminal seahorse gnome-tweaks rpi-chromium-mods piwiz
+  sudo apt install -y gnome-session gnome-shell nautilus gedit gnome-terminal seahorse gnome-tweaks
+
   wait
 fi
 
